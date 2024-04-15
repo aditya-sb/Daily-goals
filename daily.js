@@ -2,6 +2,7 @@ const title = document.getElementById("title");
 const description = document.getElementById("description");
 const form = document.querySelector("form");
 const container = document.querySelector(".container");
+const heading = document.querySelector("h1");
 
 const tasks = localStorage.getItem("tasks")?JSON.parse(localStorage.getItem("tasks")):[];
 showAllTasks();
@@ -54,4 +55,8 @@ form.addEventListener("submit",(e)=>{
     });
     localStorage.setItem("tasks",JSON.stringify(tasks));
     showAllTasks();
+})
+
+heading.addEventListener("mouseover",()=>{
+    heading.style.color = "rgba(81, 81, 130, 0.63)";
 })

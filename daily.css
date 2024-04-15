@@ -27,13 +27,13 @@ input,textarea,button{
     margin: 10px;
 }
 button{
-    background-color: crimson;
-    color: black;
+    background-color: black ;
+    color: white;
     cursor: pointer;
     transition: all 0.5s;
 }
 button:hover{
-    background-color: rgba(251, 150, 170, 0.747);
+    background-color: rgba(81, 81, 130, 0.63) ;
 }
 .task{
     background-color: rgb(238, 246, 253);
