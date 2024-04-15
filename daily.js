@@ -45,7 +45,6 @@ function removeTasks(){
         div.remove();
     })
 }
-
 form.addEventListener("submit",(e)=>{
     e.preventDefault();
     removeTasks();
